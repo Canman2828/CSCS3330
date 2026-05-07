@@ -16,6 +16,7 @@ This file documents all use of AI assistance (Claude Code via Anthropic) for thi
 
 ### 2. Reviewed Production Source Code Implementation
 - The AI read all 10 provided test files under `src/test/java` to infer the required behavior of every class and method.
+- The AI fixed files that had errors.
 - The AI derived pricing formulas for each cost strategy by working backwards from the expected values in the test cases:
   - `StandardDeliveryStrategy`: `weight + 2 * distance + 10 + (fragile ? 5 : 0)`
   - `ExpressDeliveryStrategy`: `2 * weight + 4 * distance + 25 + (fragile ? 10 : 0)`
