@@ -31,7 +31,7 @@ This file documents all use of AI assistance (Claude Code via Anthropic) for thi
 
 ---
 
-## Prompts Used (summarized)
+## Prompts Used
 
 1. "can you look at the readme and make the files for the test cases but dont write the code"
 2. "can you add the @test and make the methods I need. basically just format it so I can just write the test"
